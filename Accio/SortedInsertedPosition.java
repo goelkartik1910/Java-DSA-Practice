@@ -2,33 +2,36 @@ package Accio;
 
 import java.util.Scanner;
 
-public class LargestNumberAtLeastTwiceofOthers {
+public class SortedInsertedPosition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int[] arr = new int[size];
-        int maxIndex = 0;
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
-            if(arr[i] > arr[maxIndex]){
-                maxIndex = i;
-            }
         }
+        int target = sc.nextInt();
 
-        int flag = 1;
+        int ans = 0;
+        int flag = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[maxIndex] < 2 * arr[i] && i != maxIndex) {
-                flag = 0;
+            if(target == arr[i]){
+                ans = i;
+                flag = 1;
+                break;
+            }else if (target < arr[i]){
+                ans = i;
+                flag = 1;
+                break;
             }
         }
+
         if(flag == 1){
-            System.out.println(maxIndex);
+            System.out.println(ans);
         }else{
-            System.out.println(-1);
+            System.out.println(size);
         }
-
-
 
     }
 }
