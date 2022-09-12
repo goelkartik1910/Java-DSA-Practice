@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+package Arrays_ArrayListss;//https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
 import java.util.ArrayList;
 import java.util.List;

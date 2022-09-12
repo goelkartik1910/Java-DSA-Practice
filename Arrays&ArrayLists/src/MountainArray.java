@@ -1,5 +1,7 @@
+package Arrays_ArrayListss;
+
 public class MountainArray {
-    public class SearchInMountain {
+    public static class SearchInMountain {
         public static void main(String[] args) {
 
         }

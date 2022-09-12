@@ -1,3 +1,5 @@
+package Arrays_ArrayListss;
+
 public class GoodPairs {
     public static void main(String[] args) {
 

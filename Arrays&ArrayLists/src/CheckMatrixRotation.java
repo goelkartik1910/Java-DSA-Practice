@@ -1,3 +1,5 @@
+package Arrays_ArrayListss;
+
 //https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
 public class CheckMatrixRotation {
     public static void main(String[] args) {

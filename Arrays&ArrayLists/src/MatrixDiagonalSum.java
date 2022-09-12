@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/matrix-diagonal-sum/
+package Arrays_ArrayListss;//https://leetcode.com/problems/matrix-diagonal-sum/
 
 public class MatrixDiagonalSum {
     public static void main(String[] args) {

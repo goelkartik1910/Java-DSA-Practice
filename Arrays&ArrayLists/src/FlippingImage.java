@@ -1,3 +1,5 @@
+package Arrays_ArrayListss;
+
 // https://leetcode.com/problems/flipping-an-image/
 public class FlippingImage {
     public static void main(String[] args) {

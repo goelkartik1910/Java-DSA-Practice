@@ -1,3 +1,5 @@
+package Arrays_ArrayListss;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
@@ -64,11 +66,11 @@ public class Experiment {
     Scanner sc = new Scanner (System.in);
     int x = sc.nextInt();
     int ans = 0;
-    while (x != 0){
-        int rem = x % 10;
-        ans = ans * 10 + rem;
-        x = x / 10;
-    }
-    System.out.println(ans);
+//    while (x != 0){
+//        int rem = x % 10;
+//        ans = ans * 10 + rem;
+//        x = x / 10;
+//    }
+//    System.out.println(ans);
 
 }
