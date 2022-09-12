@@ -16,9 +16,10 @@ public class WhichAngledTriangle
             maxSide = b;}
         if(c>maxSide) {
             maxSide = c;}
-        if(2*maxSide*maxSide> a*a+b*b+c*c){
+        int i = a * a + b * b + c * c;
+        if(2*maxSide*maxSide> i){
             System.out.println ("3");
-        }else if (2*maxSide*maxSide == a*a+b*b+c*c){
+        }else if (2*maxSide*maxSide == i){
             System.out.println ("2") ;
         }else{
             System.out.println("1");
